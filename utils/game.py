@@ -1,17 +1,26 @@
-"""In game.py create:
 
-A class called Board that contains:
+from card.py import card
+class Board(self,players,turn_count,active_cards,history_cards):
+    def __init__ self.player = players
+    self.turn_count = []
+    self.active_cards = []
+    self.history_cards = []
 
-An attribute players that is a list of Player. It will contain all the players that are playing.
-An attribute turn_count that is an int.
-An attribute active_cards that will contain the last card played by each player.
-An attribute history_cards that will contain all the cards played since the start of the game, with the exception of active_cards.
-A method start_game() that will:
-Start the game,
-Fill a Deck,
-Distribute the cards of the Deck to the players.
-Make each Player play() a Card , where each player should only play 1 card per turn, and all players have to play at each turn until they have no cards left.
-At the end of each turn, print:
-The turn count.
-The list of active cards.
-The number of cards in the history_cards """
+#start game
+def start_game()
+
+class Deck(self,cards):
+    def __init__(self,cards):
+      def fill_deck(self):
+          cards = []
+          return cards
+
+      def shuffle(cards):
+          shuffle(cards)
+
+      def distribute(player,cards):
+          return cards
+
+
+        
+    
